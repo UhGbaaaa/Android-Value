@@ -8,6 +8,8 @@ local run = game:GetService("RunService")
 local mouse = game.Players.LocalPlayer:GetMouse()
 local focusing = false
 local font = Enum.Font.SourceSans
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 local Utility = {}
 local Objects = {}
@@ -156,7 +158,12 @@ function Library:Create(TitleText)
 	Close.Size = UDim2.new(0, 14, 0, 14)
 	Close.Image = "rbxassetid://12308581351"
 	Close.MouseButton1Click:Connect(function()
-		
+		Notification:Notify(
+    {Title = "Bysuskhmer", Description = "Create By Bysuskhmer"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+setclipboard("https://t.me/bysuskhmerhub") 
 	end)
 
 	Line.Name = "Line"
