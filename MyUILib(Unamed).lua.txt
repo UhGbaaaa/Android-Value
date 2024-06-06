@@ -319,13 +319,11 @@ setclipboard("https://t.me/bysuskhmerhub")
 		UIPadding_5.PaddingBottom = UDim.new(0, 1)
 		UIPadding_5.PaddingLeft = UDim.new(0, 1)
 		UIPadding_5.PaddingRight = UDim.new(0, 1)
-		UIPadding_5.PaddingTop = UDim.new(0, 1)
-                UIPadding_5.Draggable = true
+		UIPadding_5.PaddingTop = UDim.new(0, 1)                
           
 		UIListLayout_2.Parent = NewTab
 		UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-		UIListLayout_2.Padding = UDim.new(0, 6)
-                UIListLayout_2.Draggable = true
+		UIListLayout_2.Padding = UDim.new(0, 6)                
                 	
 		if first then
 			first = false
