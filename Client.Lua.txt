@@ -8,6 +8,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     local Outline_A = Instance.new("Frame")
     local WindowTitle = Instance.new("TextLabel")
     local WindowDescription = Instance.new("TextLabel")
+    local font = Enum.Font.Michroma
     
     ambientShadow.Name = "ambientShadow"
     ambientShadow.Parent = GUI
@@ -47,7 +48,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowTitle.Position = UDim2.new(0, 8, 0, 2)
     WindowTitle.Size = UDim2.new(0, 222, 0, 22)
     WindowTitle.ZIndex = 4
-    WindowTitle.Font = Enum.Font.GothamSemibold
+    WindowTitle.Font = font
     WindowTitle.Text = nofdebug.Title
     WindowTitle.TextColor3 = Color3.fromRGB(220, 220, 220)
     WindowTitle.TextSize = 12.000
@@ -62,7 +63,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowDescription.Position = UDim2.new(0, 8, 0, 34)
     WindowDescription.Size = UDim2.new(0, 216, 0, 40)
     WindowDescription.ZIndex = 4
-    WindowDescription.Font = Enum.Font.GothamSemibold
+    WindowDescription.Font = font
     WindowDescription.Text = nofdebug.Description
     WindowDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
     WindowDescription.TextSize = 12.000
