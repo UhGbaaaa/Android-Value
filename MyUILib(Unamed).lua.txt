@@ -331,6 +331,7 @@ function Library:Create(TitleText)
 
 		UIListLayout_2.Parent = NewTab
 		UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+                UIListLayout_2.Draggable = true
 		UIListLayout_2.Padding = UDim.new(0, 6)                
 
 		if first then
