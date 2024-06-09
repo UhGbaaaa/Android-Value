@@ -156,14 +156,22 @@ function Library:Create(TitleText)
 	Close.BackgroundTransparency = 1.000
 	Close.Position = UDim2.new(1, -8, 0.5, 0)
 	Close.Size = UDim2.new(0, 14, 0, 14)
-	Close.Image = "rbxassetid://12308581351"
+	Close.Image = "rbxassetid://10884453403"
 	Close.MouseButton1Click:Connect(function()
-		Notification:Notify(
-    {Title = "Bysuskhmer", Description = "Create By Bysuskhmer"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
-    {Image = "http://www.roblox.com/asset/?id=", ImageColor = Color3.fromRGB(255, 84, 84)}
-)
-setclipboard("https://t.me/bysuskhmerhub") 
+		game.TweenService:Create(Close, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
+			ImageTransparency = 1
+		}):Play()
+		wait()
+		game.TweenService:Create(Main, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+			Size = UDim2.new(0,0,0,0),
+			Position = UDim2.new(0, Main.AbsolutePosition.X + (Main.AbsoluteSize.X / 2), 0, Main.AbsolutePosition.Y + (Main.AbsoluteSize.Y / 2))
+		}):Play()
+		ContentContainer.Visible = false
+		Navigation.Visible = false
+		DropShadowHolder.Visible = false
+		TopBar.Visible = false
+		wait(1.5)
+		Library:DestroyUI()
 	end)
 
 	Line.Name = "Line"
