@@ -4,6 +4,8 @@ local url = "https://discord.com/invite/62h8Dx2CXk"
 setclipboard(url)
 print("Discord url has been copied to your clipboard!")
 
+local font = 
+
 
 
 
@@ -49,7 +51,7 @@ main.ResetOnSpawn = false
 
 Frame.Parent = main
 
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 
@@ -63,7 +65,7 @@ up.Name = "up"
 
 up.Parent = Frame
 
-up.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+up.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 up.Size = UDim2.new(0, 44, 0, 28)
 
@@ -71,7 +73,7 @@ up.Font = Enum.Font.SourceSans
 
 up.Text = "↑"
 
-up.TextColor3 = Color3.fromRGB(0, 0, 0)
+up.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 up.TextSize = 14.000
 
@@ -81,17 +83,17 @@ down.Name = "down"
 
 down.Parent = Frame
 
-down.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+down.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 down.Position = UDim2.new(0, 0, 0.491228074, 0)
 
 down.Size = UDim2.new(0, 44, 0, 28)
 
-down.Font = Enum.Font.SourceSans
+down.Font = font
 
 down.Text = "↓"
 
-down.TextColor3 = Color3.fromRGB(0, 0, 0)
+down.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 down.TextSize = 14.000
 
@@ -101,17 +103,17 @@ onof.Name = "onof"
 
 onof.Parent = Frame
 
-onof.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+onof.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 onof.Position = UDim2.new(0.702823281, 0, 0.491228074, 0)
 
 onof.Size = UDim2.new(0, 56, 0, 28)
 
-onof.Font = Enum.Font.Michroma
+onof.Font = font
 
 onof.Text = "Fly"
 
-onof.TextColor3 = Color3.fromRGB(0, 0, 0)
+onof.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 onof.TextSize = 14.000
 
@@ -119,17 +121,17 @@ onof.TextSize = 14.000
 
 TextLabel.Parent = Frame
 
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 TextLabel.Position = UDim2.new(0.469327301, 0, 0, 0)
 
 TextLabel.Size = UDim2.new(0, 100, 0, 28)
 
-TextLabel.Font = Enum.Font.Michroma
+TextLabel.Font = font
 
-TextLabel.Text = "Script Made By MikeBayraktar"
+TextLabel.Text = "Script Made By Bysuskhmer"
 
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 TextLabel.TextScaled = true
 
@@ -143,17 +145,17 @@ plus.Name = "plus"
 
 plus.Parent = Frame
 
-plus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+plus.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 plus.Position = UDim2.new(0.231578946, 0, 0, 0)
 
 plus.Size = UDim2.new(0, 45, 0, 28)
 
-plus.Font = Enum.Font.SourceSans
+plus.Font = font
 
 plus.Text = "+"
 
-plus.TextColor3 = Color3.fromRGB(0, 0, 0)
+plus.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 plus.TextScaled = true
 
@@ -167,17 +169,17 @@ speed.Name = "speed"
 
 speed.Parent = Frame
 
-speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+speed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 speed.Position = UDim2.new(0.468421042, 0, 0.491228074, 0)
 
 speed.Size = UDim2.new(0, 44, 0, 28)
 
-speed.Font = Enum.Font.SourceSans
+speed.Font = font
 
 speed.Text = "1"
 
-speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 speed.TextScaled = true
 
@@ -191,17 +193,16 @@ mine.Name = "mine"
 
 mine.Parent = Frame
 
-mine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mine.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 
 mine.Position = UDim2.new(0.231578946, 0, 0.491228074, 0)
 
 mine.Size = UDim2.new(0, 45, 0, 29)
 
-mine.Font = Enum.Font.SourceSans
-
+mine.Font = font
 mine.Text = "-"
 
-mine.TextColor3 = Color3.fromRGB(0, 0, 0)
+mine.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 mine.TextScaled = true
 
