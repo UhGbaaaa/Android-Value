@@ -331,7 +331,6 @@ function Library:Create(TitleText)
 
 		UIListLayout_2.Parent = NewTab
 		UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-                UIListLayout_2.Draggable = true
 		UIListLayout_2.Padding = UDim.new(0, 6)                
 
 		if first then
@@ -1069,7 +1068,7 @@ function Library:Create(TitleText)
 			Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_14.BackgroundTransparency = 1.000
 			Title_14.Size = UDim2.new(1, -20, 1, 0)
-			Title_14.Font = Enum.Font.Ubuntu
+			Title_14.Font = font
 			Title_14.Text = KeybindTitle
 			Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title_14.TextSize = 14.000
