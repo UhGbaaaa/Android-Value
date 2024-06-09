@@ -1,15 +1,10 @@
 
 
-local url = "https://discord.com/invite/62h8Dx2CXk"
+local url = "Create By Bysuskhmer"
 setclipboard(url)
 print("Discord url has been copied to your clipboard!")
 
-local font = 
-
-
-
-
--- MikeBayraktar Online Fly Gui --
+local font = Enum.Font.Michroma
 
  
 
