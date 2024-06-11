@@ -69,11 +69,11 @@ Background.Draggable = true
 nextb.Position = UDim2.new(0,100,0,60)
 nextb.Size = UDim2.new(0,40,0,40)
 nextb.BackgroundColor3 = Color3.fromRGB(53, 52, 55)
-nextb.Image = "rbxassetid://17760835456"
+nextb.Image = "rbxassetid://17813607147"
 nextb.Active = true
 nextb.Draggable = true
 nextb.MouseButton1Down:connect(function()
-nextb.Image = (Background.Visible and "rbxassetid://17760835456") or "rbxassetid://7072719338"
+nextb.Image = (Background.Visible and "rbxassetid://17813607147") or "rbxassetid://7072719338"
 Background.Visible = not Background.Visible
 end)
 
