@@ -138,7 +138,7 @@ function library:Window(name)
     HeaderText.ZIndex = 6 + zindex
     HeaderText.Font = Enum.Font.Michroma
     HeaderText.Text = name or "Window"
-    HeaderText.TextColor3 = Color3.fromRGB(47, 54, 64)
+    HeaderText.TextColor3 = Color3.fromRGB(255, 255, 255)
     HeaderText.TextSize = 17.000
 
     local Minimise = Instance.new("TextButton")
@@ -152,7 +152,7 @@ function library:Window(name)
     Minimise.ZIndex = 7 + zindex
     Minimise.Font = Enum.Font.Michroma
     Minimise.Text = "_"
-    Minimise.TextColor3 = Color3.fromRGB(0, 0, 0)
+    Minimise.TextColor3 = Color3.fromRGB(255, 255, 255)
     Minimise.TextSize = 20.000
     Minimise.MouseButton1Up:connect(function()
         Window.Visible = not Window.Visible
