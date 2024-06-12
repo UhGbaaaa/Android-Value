@@ -412,7 +412,7 @@ function Library:Create(TitleText)
 			Thing.Position = UDim2.new(0.637247145, 0, -0.303296119, 0)
 			Thing.Size = UDim2.new(0.307416946, -20, 1, 0)
 			Thing.Font = font
-			Thing.Text = "_____"
+			Thing.Text = ""
 			Thing.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Thing.TextSize = 14.000
 
@@ -426,7 +426,7 @@ function Library:Create(TitleText)
 			Thing2.Position = UDim2.new(0.0976673365, 0, -0.303296119, 0)
 			Thing2.Size = UDim2.new(0.335968375, -20, 1, 0)
 			Thing2.Font = font
-			Thing2.Text = "_____"
+			Thing2.Text = ""
 			Thing2.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Thing2.TextSize = 14.000
 
