@@ -339,11 +339,11 @@ function Library:Create(TitleText)
 			first = false
 			NewTab.Visible = true
 			Active.BackgroundTransparency = 0.9
-			Active.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Active.TextColor3 = Color3.fromRGB(255, 0, 0)
 		else
 			NewTab.Visible = false
 			Active.BackgroundTransparency = 1
-			Active.TextColor3 = Color3.fromRGB(199, 199, 199)
+			Active.TextColor3 = Color3.fromRGB(0, 3, 255)
 		end
 
 		Active.MouseButton1Click:Connect(function()
@@ -358,10 +358,10 @@ function Library:Create(TitleText)
 						BackgroundTransparency = 1
 					}):Play()
 					game.TweenService:Create(v, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						TextColor3 = Color3.fromRGB(199, 199, 199)
+						TextColor3 = Color3.fromRGB(0, 3, 255)
 					}):Play()
 					game.TweenService:Create(Icon, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						ImageColor3 = Color3.fromRGB(199, 199, 199)
+						ImageColor3 = Color3.fromRGB(0, 3, 255)
 					}):Play()
 				end
 			end
@@ -369,7 +369,7 @@ function Library:Create(TitleText)
 				BackgroundTransparency = 0.9
 			}):Play()
 			game.TweenService:Create(Active, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-				TextColor3 = Color3.fromRGB(255, 255, 255)
+				TextColor3 = Color3.fromRGB(255, 0, 0)
 			}):Play()
 			game.TweenService:Create(Icon, TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 				ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -479,7 +479,7 @@ function Library:Create(TitleText)
 			Title_2.Size = UDim2.new(1, -20, 1, 0)
 			Title_2.Font = font
 			Title_2.Text = ButtonName
-			Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_2.TextSize = 14.000
 			Title_2.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -545,7 +545,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(162, 162, 162)
@@ -556,7 +556,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then 
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(81, 81, 81)
@@ -600,7 +600,7 @@ function Library:Create(TitleText)
 			Title_12.Size = UDim2.new(0.750988126, -20, 1, 0)
 			Title_12.Font = font
 			Title_12.Text = TextBoxTitle
-			Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_12.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_12.TextSize = 14.000
 			Title_12.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -619,7 +619,7 @@ function Library:Create(TitleText)
 			UIStroke_9.Transparency = 0
 
 			TextBox_2.Parent = TextBox
-			TextBox_2.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+			TextBox_2.BackgroundColor3 = Color3.fromRGB(164, 164, 38)
 			TextBox_2.BorderSizePixel = 0
 			TextBox_2.ClipsDescendants = true
 			TextBox_2.Position = UDim2.new(0.691699624, 0, 0, 0)
@@ -627,7 +627,7 @@ function Library:Create(TitleText)
 			TextBox_2.ZIndex = 99
 			TextBox_2.ClearTextOnFocus = false
 			TextBox_2.Font = font
-			TextBox_2.PlaceholderText = "Type here!"
+			TextBox_2.PlaceholderText = "Editer"
 			TextBox_2.Text = ""
 			TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextBox_2.TextSize = 12.000
@@ -648,7 +648,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(162, 162, 162)
@@ -659,7 +659,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(81, 81, 81)
@@ -715,7 +715,7 @@ function Library:Create(TitleText)
 			Title_6.Size = UDim2.new(1, -26, 1, 0)
 			Title_6.Font = font
 			Title_6.Text = ToggleName
-			Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_6.TextSize = 14.000
 			Title_6.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -770,7 +770,7 @@ function Library:Create(TitleText)
 				if not focusing then
 					if toggled == false then
 						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							BackgroundColor3 = Color3.fromRGB(115, 191, 92)
+							BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 							Color = Color3.fromRGB(0, 255, 59) 
@@ -793,10 +793,10 @@ function Library:Create(TitleText)
 						c:Destroy()
 					else
 						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							BackgroundColor3 = Color3.fromRGB(63, 63, 63) 
+							BackgroundColor3 = Color3.fromRGB(255, 255, 0) 
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							Color = Color3.fromRGB(81, 81, 81) 
+							Color = Color3.fromRGB(255, 161, 0) 
 						}):Play()
 						local c = sample:Clone()
 						c.Parent = btn
@@ -823,7 +823,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(162, 162, 162)
@@ -834,7 +834,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(81, 81, 81)
@@ -876,7 +876,7 @@ function Library:Create(TitleText)
 			UIStroke_4.Name = "UIStroke"
 			UIStroke_4.Parent = Slider
 			UIStroke_4.ApplyStrokeMode = "Border"
-			UIStroke_4.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_4.Color = Color3.fromRGB(0, 0, p)
 			UIStroke_4.LineJoinMode = "Round"
 			UIStroke_4.Thickness = 1
 			UIStroke_4.Transparency = 0
@@ -888,7 +888,7 @@ function Library:Create(TitleText)
 			Title_8.Size = UDim2.new(1, -24, 1, -10)
 			Title_8.Font = font
 			Title_8.Text = SliderTitle
-			Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_8.TextSize = 14.000
 			Title_8.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -907,7 +907,7 @@ function Library:Create(TitleText)
 			Valuee.Size = UDim2.new(0, 24, 1, -10)
 			Valuee.Font = font
 			Valuee.Text = minvalue
-			Valuee.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Valuee.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Valuee.TextSize = 14.000
 			Valuee.TextXAlignment = Enum.TextXAlignment.Right
 
@@ -1067,12 +1067,12 @@ function Library:Create(TitleText)
 
 			Title_14.Name = "Title"
 			Title_14.Parent = Keybind
-			Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Title_14.BackgroundTransparency = 1.000
 			Title_14.Size = UDim2.new(1, -20, 1, 0)
 			Title_14.Font = font
 			Title_14.Text = KeybindTitle
-			Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_14.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_14.TextSize = 14.000
 			Title_14.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1147,7 +1147,7 @@ function Library:Create(TitleText)
 
 			Warning.Name = "Warning"
 			Warning.Parent = NewTab
-			Warning.BackgroundColor3 = Color3.fromRGB(43, 36, 3)
+			Warning.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Warning.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_7.Parent = Warning
@@ -1158,12 +1158,12 @@ function Library:Create(TitleText)
 
 			Title_3.Name = "Title"
 			Title_3.Parent = Warning
-			Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Title_3.BackgroundTransparency = 1.000
 			Title_3.Size = UDim2.new(1, 0, 1, 0)
 			Title_3.Font = font
 			Title_3.Text = WarningText
-			Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_3.TextSize = 14.000
 			Title_3.TextWrapped = true
 			Title_3.TextXAlignment = Enum.TextXAlignment.Left
