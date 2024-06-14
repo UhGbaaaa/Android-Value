@@ -10,7 +10,7 @@ local focusing = false
 local font = Enum.Font.Michroma
 local NotificationHolder = loadstring(game:HttpGet("https://pastebin.com/raw/MT3PabHV"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Android-Value/main/Client.Lua.txt"))()
-local textcolor = 92, 0, 55
+local textcolor = 92, 0, 255
 
 local Utility = {}
 local Objects = {}
