@@ -10,6 +10,7 @@ local focusing = false
 local font = Enum.Font.Michroma
 local NotificationHolder = loadstring(game:HttpGet("https://pastebin.com/raw/MT3PabHV"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Android-Value/main/Client.Lua.txt"))()
+local textcolor = 92, 0, 55
 
 local Utility = {}
 local Objects = {}
@@ -141,7 +142,7 @@ function Library:Create(TitleText)
 	Title.Size = UDim2.new(0.5, 0, 1, 0)
 	Title.Font = font
 	Title.Text = TitleText
-	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Title.TextColor3 = Color3.fromRGB(textcolor)
 	Title.TextSize = 14.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -295,7 +296,7 @@ function Library:Create(TitleText)
 		Active.Size = UDim2.new(1, 0, 0, 28)
 		Active.Font = font
 		Active.Text = TabText
-		Active.TextColor3 = Color3.fromRGB(199, 199, 199)
+		Active.TextColor3 = Color3.fromRGB(textcolor)
 		Active.TextSize = 12.000
 		Active.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -402,7 +403,7 @@ function Library:Create(TitleText)
 			Title_idk.Size = UDim2.new(0.339169234, -20, 1, 0)
 			Title_idk.Font = font
 			Title_idk.Text = title
-			Title_idk.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_idk.TextColor3 = Color3.fromRGB(textcolor)
 			Title_idk.TextSize = 14.000
 
 			Thing.Name = "Thing"
@@ -413,7 +414,7 @@ function Library:Create(TitleText)
 			Thing.Size = UDim2.new(0.307416946, -20, 1, 0)
 			Thing.Font = font
 			Thing.Text = ""
-			Thing.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Thing.TextColor3 = Color3.fromRGB(textcolor)
 			Thing.TextSize = 14.000
 
 			UIPadding_idk.Parent = Thing
@@ -427,7 +428,7 @@ function Library:Create(TitleText)
 			Thing2.Size = UDim2.new(0.335968375, -20, 1, 0)
 			Thing2.Font = font
 			Thing2.Text = ""
-			Thing2.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Thing2.TextColor3 = Color3.fromRGB(textcolor)
 			Thing2.TextSize = 14.000
 
 			UIPadding_idkk.Parent = Thing2
