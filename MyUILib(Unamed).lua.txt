@@ -1123,7 +1123,7 @@ function Library:Create(TitleText)
 			KeybindC.Size = UDim2.new(0, 26, 0, 20)
 			KeybindC.Font = font
 			KeybindC.Text = oldKey
-			KeybindC.TextColor3 = Color3.fromRGB(255, 255, 255)
+			KeybindC.TextColor3 = Color3.fromRGB(0, 0, 0)
 			KeybindC.TextSize = 14.000
 
 			UIPadding_25.Parent = KeybindC
