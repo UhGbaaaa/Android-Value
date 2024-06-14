@@ -112,7 +112,7 @@ function Library:Create(TitleText)
 	Main.Name = "Main"
 	Main.Parent = UILibrary
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+	Main.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 400, 0, 228)
 
@@ -121,7 +121,7 @@ function Library:Create(TitleText)
 
 	TopBar.Name = "TopBar"
 	TopBar.Parent = Main
-	TopBar.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	TopBar.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	TopBar.Size = UDim2.new(1, 0, 0, 30)
 
 	UICorner_2.CornerRadius = UDim.new(0, 6)
@@ -130,7 +130,7 @@ function Library:Create(TitleText)
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
 	Extension.AnchorPoint = Vector2.new(0, 1)
-	Extension.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+	Extension.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0, 0, 1, 0)
 	Extension.Size = UDim2.new(1, 0, 0.5, 0)
@@ -178,7 +178,7 @@ function Library:Create(TitleText)
 	Line.Name = "Line"
 	Line.Parent = TopBar
 	Line.AnchorPoint = Vector2.new(0, 1)
-	Line.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 1, 0)
 	Line.Size = UDim2.new(1, 0, 0, 1)
@@ -206,7 +206,7 @@ function Library:Create(TitleText)
 
 	Navigation.Name = "Navigation"
 	Navigation.Parent = Main
-	Navigation.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Navigation.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	Navigation.BorderSizePixel = 0
 	Navigation.Position = UDim2.new(0, 0, 0, 30)
 	Navigation.Size = UDim2.new(0, 120, 1, -30)
@@ -216,14 +216,14 @@ function Library:Create(TitleText)
 
 	Hide.Name = "Hide"
 	Hide.Parent = Navigation
-	Hide.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	Hide.BorderSizePixel = 0
 	Hide.Size = UDim2.new(1, 0, 0, 20)
 
 	Hide2.Name = "Hide2"
 	Hide2.Parent = Navigation
 	Hide2.AnchorPoint = Vector2.new(1, 0)
-	Hide2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+	Hide2.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	Hide2.BorderSizePixel = 0
 	Hide2.Position = UDim2.new(1, 0, 0, 0)
 	Hide2.Size = UDim2.new(0, 20, 1, 0)
@@ -244,7 +244,7 @@ function Library:Create(TitleText)
 
 	Line_2.Name = "Line"
 	Line_2.Parent = Navigation
-	Line_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+	Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	Line_2.BorderSizePixel = 0
 	Line_2.Position = UDim2.new(1, 0, 0, 0)
 	Line_2.Size = UDim2.new(0, 1, 1, 0)
@@ -252,7 +252,7 @@ function Library:Create(TitleText)
 	ContentContainer.Name = "ContentContainer"
 	ContentContainer.Parent = Main
 	ContentContainer.AnchorPoint = Vector2.new(1, 0)
-	ContentContainer.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+	ContentContainer.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 	ContentContainer.BackgroundTransparency = 1.000
 	ContentContainer.Position = UDim2.new(1, -6, 0, 36)
 	ContentContainer.Size = UDim2.new(1, -133, 1, -42)
@@ -290,7 +290,7 @@ function Library:Create(TitleText)
 
 		Active.Name = TabText.."_TabButton"
 		Active.Parent = ButtonHolder
-		Active.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Active.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 		Active.BackgroundTransparency = 1
 		Active.BorderSizePixel = 0
 		Active.Size = UDim2.new(1, 0, 0, 28)
@@ -390,7 +390,7 @@ function Library:Create(TitleText)
 
 			Section.Name = "Section"
 			Section.Parent = NewTab
-			Section.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Section.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Section.BackgroundTransparency = 1.000
 			Section.Position = UDim2.new(0, 0, 0.430411309, 0)
 			Section.Size = UDim2.new(1, 0, -0.0561393984, 32)
@@ -458,7 +458,7 @@ function Library:Create(TitleText)
 
 			Button.Name = "Button"
 			Button.Parent = NewTab
-			Button.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Button.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Button.ClipsDescendants = true
 			Button.Size = UDim2.new(1, 0, 0, 32)
 			Button.AutoButtonColor = false
@@ -580,7 +580,7 @@ function Library:Create(TitleText)
 			
 			TextBox.Name = "TextBox"
 			TextBox.Parent = NewTab
-			TextBox.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			TextBox.ClipsDescendants = true
 			TextBox.Size = UDim2.new(1, 0, 0, 32)
 			TextBox.AutoButtonColor  = false
@@ -612,7 +612,7 @@ function Library:Create(TitleText)
 			UIStroke_9.Name = "UIStroke"
 			UIStroke_9.Parent = TextBox
 			UIStroke_9.ApplyStrokeMode = "Border"
-			UIStroke_9.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_9.Color = Color3.fromRGB(255, 255, 0)
 			UIStroke_9.LineJoinMode = "Round"
 			UIStroke_9.Thickness = 1
 			UIStroke_9.Transparency = 0
@@ -695,7 +695,7 @@ function Library:Create(TitleText)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = NewTab
-			Toggle.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Toggle.ClipsDescendants = true
 			Toggle.Size = UDim2.new(1, 0, 0, 32)
 			Toggle.AutoButtonColor = false
@@ -866,7 +866,7 @@ function Library:Create(TitleText)
 
 			Slider.Name = "Slider"
 			Slider.Parent = NewTab
-			Slider.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Slider.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Slider.Size = UDim2.new(1, 0, 0, 38)
 
 			UICorner_12.CornerRadius = UDim.new(0, 4)
@@ -995,7 +995,7 @@ function Library:Create(TitleText)
 			
 			Keybind.Name = "Keybind"
 			Keybind.Parent = NewTab
-			Keybind.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+			Keybind.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Keybind.ClipsDescendants = true
 			Keybind.Size = UDim2.new(1, 0, 0, 32)
 			Keybind.AutoButtonColor = false
