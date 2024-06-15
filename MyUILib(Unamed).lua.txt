@@ -752,7 +752,7 @@ function Library:Create(TitleText)
 			UIStroke_3.Name = "UIStroke"
 			UIStroke_3.Parent = CheckmarkHolder
 			UIStroke_3.ApplyStrokeMode = "Border"
-			UIStroke_3.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_3.Color = Color3.fromRGB(255, 255, 0)
 			UIStroke_3.LineJoinMode = "Round"
 			UIStroke_3.Thickness = 1
 			UIStroke_3.Transparency = 0
@@ -1239,7 +1239,7 @@ function Library:Create(TitleText)
 			Title_4.Font = font
 			Title_4.Text = InfoText
 			Title_4.TextWrapped = true
-			Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Title_4.TextSize = 14.000
 			Title_4.TextXAlignment = Enum.TextXAlignment.Left
 			Title_4.TextYAlignment = Enum.TextYAlignment.Top
