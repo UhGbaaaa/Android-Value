@@ -726,7 +726,7 @@ function Library:Create(TitleText)
 			UIStroke_2.Name = "UIStroke"
 			UIStroke_2.Parent = Toggle
 			UIStroke_2.ApplyStrokeMode = "Border"
-			UIStroke_2.Color = Color3.fromRGB(81, 81, 81)
+			UIStroke_2.Color = Color3.fromRGB(255, 255, 0)
 			UIStroke_2.LineJoinMode = "Round"
 			UIStroke_2.Thickness = 1
 			UIStroke_2.Transparency = 0
@@ -1222,7 +1222,7 @@ function Library:Create(TitleText)
 
 			Info.Name = "Info"
 			Info.Parent = NewTab
-			Info.BackgroundColor3 = Color3.fromRGB(3, 32, 43)
+			Info.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
 			Info.Size = UDim2.new(1, 0, 0, 26)
 
 			UIPadding_9.Parent = Info
