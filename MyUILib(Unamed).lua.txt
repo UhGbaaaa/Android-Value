@@ -296,7 +296,7 @@ function Library:Create(TitleText)
 		Active.Font = font
 		Active.Text = TabText
 		Active.TextColor3 = Color3.fromRGB(0, 0, 0)
-		Active.TextSize = 12.000
+		Active.TextSize = 18.000
 		Active.TextXAlignment = Enum.TextXAlignment.Left
 
 		UIPadding_3.Parent = Active
