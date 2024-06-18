@@ -289,13 +289,13 @@ function Library:Create(TitleText)
 
 		Active.Name = TabText.."_TabButton"
 		Active.Parent = ButtonHolder
-		Active.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-		Active.BackgroundTransparency = 1
+		Active.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+		Active.BackgroundTransparency = 0
 		Active.BorderSizePixel = 0
 		Active.Size = UDim2.new(1, 0, 0, 28)
 		Active.Font = font
 		Active.Text = TabText
-		Active.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Active.TextColor3 = Color3.fromRGB(255, 255, 255)
 		Active.TextSize = 18.000
 		Active.TextXAlignment = Enum.TextXAlignment.Left
 
