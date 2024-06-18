@@ -111,7 +111,7 @@ function Library:Create(TitleText)
 	Main.Name = "Main"
 	Main.Parent = UILibrary
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+	Main.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 400, 0, 228)
 
@@ -434,10 +434,7 @@ function Library:Create(TitleText)
 			UIPadding_idkk.PaddingBottom = UDim.new(0, 10)
 
 			UIPadding_idkkk.Parent = Section
-			UIPadding_idkkk.PaddingBottom = UDim.new(0, 6)
-			UIPadding_idkkk.PaddingLeft = UDim.new(0, 6)
-			UIPadding_idkkk.PaddingRight = UDim.new(0, 6)
-			UIPadding_idkkk.PaddingTop = UDim.new(0, 6)
+		
 		end
 
 		function Elements:Button(ButtonName, callback)
