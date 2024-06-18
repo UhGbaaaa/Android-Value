@@ -294,7 +294,7 @@ function Library:Create(TitleText)
 
 		Active.Name = TabText.."_TabButton"
 		Active.Parent = ButtonHolder
-		Active.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Active.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Active.BackgroundTransparency = 0
 		Active.BorderSizePixel = 0
 		Active.Size = UDim2.new(1, 0, 0, 28)
@@ -306,8 +306,7 @@ function Library:Create(TitleText)
 
 		UIPadding_3.Parent = Active
 		UIPadding_3.PaddingLeft = UDim.new(0, 28)
-                UIPadding_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-
+                
 		Icon.Name = "Icon"
 		Icon.Parent = Active
 		Icon.AnchorPoint = Vector2.new(0, 0.5)
