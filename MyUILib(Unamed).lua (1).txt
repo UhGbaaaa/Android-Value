@@ -147,7 +147,7 @@ function Library:Create(TitleText)
 	Title.Font = Enum.Font.Gotham
 	Title.Text = TitleText
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Title.TextSize = 14.000
+	Title.TextSize = 18.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
 	UIPadding.Parent = Title
@@ -295,13 +295,13 @@ function Library:Create(TitleText)
 		Active.Name = TabText.."_TabButton"
 		Active.Parent = ButtonHolder
 		Active.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		Active.BackgroundTransparency = 1
+		Active.BackgroundTransparency = 0
 		Active.BorderSizePixel = 0
 		Active.Size = UDim2.new(1, 0, 0, 28)
 		Active.Font = Enum.Font.Ubuntu
 		Active.Text = TabText
 		Active.TextColor3 = Color3.fromRGB(199, 199, 199)
-		Active.TextSize = 12.000
+		Active.TextSize = 18.000
 		Active.TextXAlignment = Enum.TextXAlignment.Left
 
 		UIPadding_3.Parent = Active
@@ -408,7 +408,7 @@ function Library:Create(TitleText)
 			Title_idk.Font = Enum.Font.Ubuntu
 			Title_idk.Text = title
 			Title_idk.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_idk.TextSize = 14.000
+			Title_idk.TextSize = 18.000
 
 			Thing.Name = "Thing"
 			Thing.Parent = Section
@@ -419,7 +419,7 @@ function Library:Create(TitleText)
 			Thing.Font = Enum.Font.Ubuntu
 			Thing.Text = "_____"
 			Thing.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Thing.TextSize = 14.000
+			Thing.TextSize = 18.000
 
 			UIPadding_idk.Parent = Thing
 			UIPadding_idk.PaddingBottom = UDim.new(0, 10)
@@ -433,7 +433,7 @@ function Library:Create(TitleText)
 			Thing2.Font = Enum.Font.Ubuntu
 			Thing2.Text = "_____"
 			Thing2.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Thing2.TextSize = 14.000
+			Thing2.TextSize = 18.000
 
 			UIPadding_idkk.Parent = Thing2
 			UIPadding_idkk.PaddingBottom = UDim.new(0, 10)
@@ -469,7 +469,7 @@ function Library:Create(TitleText)
 			Button.Font = Enum.Font.SourceSans
 			Button.Text = ""
 			Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-			Button.TextSize = 14.000
+			Button.TextSize = 18.000
 			Objects[Button] = "BackgroundColor3"
 
 			UICorner_4.CornerRadius = UDim.new(0, 4)
@@ -483,7 +483,7 @@ function Library:Create(TitleText)
 			Title_2.Font = Enum.Font.Ubuntu
 			Title_2.Text = ButtonName
 			Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_2.TextSize = 14.000
+			Title_2.TextSize = 18.000
 			Title_2.TextXAlignment = Enum.TextXAlignment.Left
 
 			UIPadding_5.Parent = Button
@@ -591,7 +591,7 @@ function Library:Create(TitleText)
 			TextBox.Font = Enum.Font.SourceSans
 			TextBox.Text = ""
 			TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-			TextBox.TextSize = 14.000
+			TextBox.TextSize = 18.000
 
 			UICorner_34.CornerRadius = UDim.new(0, 4)
 			UICorner_34.Parent = TextBox
@@ -604,7 +604,7 @@ function Library:Create(TitleText)
 			Title_12.Font = Enum.Font.Ubuntu
 			Title_12.Text = TextBoxTitle
 			Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_12.TextSize = 14.000
+			Title_12.TextSize = 18.000
 			Title_12.TextXAlignment = Enum.TextXAlignment.Left
 
 			UIPadding_20.Parent = TextBox
@@ -706,7 +706,7 @@ function Library:Create(TitleText)
 			Toggle.Font = Enum.Font.SourceSans
 			Toggle.Text = ""
 			Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
-			Toggle.TextSize = 14.000
+			Toggle.TextSize = 18.000
 
 			UICorner_8.CornerRadius = UDim.new(0, 4)
 			UICorner_8.Parent = Toggle
@@ -719,7 +719,7 @@ function Library:Create(TitleText)
 			Title_6.Font = Enum.Font.Ubuntu
 			Title_6.Text = ToggleName
 			Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_6.TextSize = 14.000
+			Title_6.TextSize = 18.000
 			Title_6.TextXAlignment = Enum.TextXAlignment.Left
 
 			UIPadding_13.Parent = Toggle
@@ -892,7 +892,7 @@ function Library:Create(TitleText)
 			Title_8.Font = Enum.Font.Ubuntu
 			Title_8.Text = SliderTitle
 			Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_8.TextSize = 14.000
+			Title_8.TextSize = 18.000
 			Title_8.TextXAlignment = Enum.TextXAlignment.Left
 
 			UIPadding_15.Parent = Slider
@@ -911,7 +911,7 @@ function Library:Create(TitleText)
 			Valuee.Font = Enum.Font.Ubuntu
 			Valuee.Text = minvalue
 			Valuee.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Valuee.TextSize = 14.000
+			Valuee.TextSize = 18.000
 			Valuee.TextXAlignment = Enum.TextXAlignment.Right
 
 			SliderButton.Name = "SliderButton"
@@ -923,7 +923,7 @@ function Library:Create(TitleText)
 			SliderButton.Font = Enum.Font.SourceSans
 			SliderButton.Text = ""
 			SliderButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-			SliderButton.TextSize = 14.000
+			SliderButton.TextSize = 18.000
 
 			UIStroke_5.Name = "UIStroke"
 			UIStroke_5.Parent = SliderButton
@@ -1006,7 +1006,7 @@ function Library:Create(TitleText)
 			Keybind.Font = Enum.Font.SourceSans
 			Keybind.Text = ""
 			Keybind.TextColor3 = Color3.fromRGB(0, 0, 0)
-			Keybind.TextSize = 14.000
+			Keybind.TextSize = 18.000
 			Keybind.MouseButton1Click:connect(function() 
 				if not focusing then
 					KeybindC.Text = ". . ."
@@ -1076,7 +1076,7 @@ function Library:Create(TitleText)
 			Title_14.Font = Enum.Font.Ubuntu
 			Title_14.Text = KeybindTitle
 			Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_14.TextSize = 14.000
+			Title_14.TextSize = 18.000
 			Title_14.TextXAlignment = Enum.TextXAlignment.Left
 
 			UIPadding_24.Parent = Keybind
@@ -1167,7 +1167,7 @@ function Library:Create(TitleText)
 			Title_3.Font = Enum.Font.Ubuntu
 			Title_3.Text = WarningText
 			Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_3.TextSize = 14.000
+			Title_3.TextSize = 18.000
 			Title_3.TextWrapped = true
 			Title_3.TextXAlignment = Enum.TextXAlignment.Left
 			Title_3.TextYAlignment = Enum.TextYAlignment.Top
@@ -1245,7 +1245,7 @@ function Library:Create(TitleText)
 			Title_4.Text = InfoText
 			Title_4.TextWrapped = true
 			Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title_4.TextSize = 14.000
+			Title_4.TextSize = 18.000
 			Title_4.TextXAlignment = Enum.TextXAlignment.Left
 			Title_4.TextYAlignment = Enum.TextYAlignment.Top
 
