@@ -136,7 +136,6 @@ function Library:Create(TitleText)
 	Extension.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
         Extension.BorderColor3 = Color3.fromRGB(255, 0, 0)
         Extension.BorderSizePixel = 3
-	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0, 0, 1, 0)
 	Extension.Size = UDim2.new(1, 0, 0.5, 0)
 
@@ -186,14 +185,13 @@ function Library:Create(TitleText)
 	Line.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
         Line.BorderColor3 = Color3.fromRGB(255, 0, 0)
         Line.BorderSizePixel = 3
-	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 1, 0)
 	Line.Size = UDim2.new(1, 0, 0, 1)
 
 	DropShadowHolder.Name = "DropShadowHolder"
 	DropShadowHolder.Parent = Main
 	DropShadowHolder.BackgroundTransparency = 1.000
-	DropShadowHolder.BorderSizePixel = 0
+	DropShadowHolder.BorderSizePixel = 3
 	DropShadowHolder.Size = UDim2.new(1, 0, 1, 0)
 	DropShadowHolder.ZIndex = 0
 
@@ -201,7 +199,7 @@ function Library:Create(TitleText)
 	DropShadow.Parent = DropShadowHolder
 	DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 	DropShadow.BackgroundTransparency = 1.000
-	DropShadow.BorderSizePixel = 0
+	DropShadow.BorderSizePixel = 3
 	DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
 	DropShadow.Size = UDim2.new(1, 44, 1, 44)
 	DropShadow.ZIndex = 0
@@ -214,7 +212,7 @@ function Library:Create(TitleText)
 	Navigation.Name = "Navigation"
 	Navigation.Parent = Main
 	Navigation.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
-	Navigation.BorderSizePixel = 0
+	Navigation.BorderSizePixel = 3
 	Navigation.Position = UDim2.new(0, 0, 0, 30)
 	Navigation.Size = UDim2.new(0, 120, 1, -30)
 
@@ -224,14 +222,14 @@ function Library:Create(TitleText)
 	Hide.Name = "Hide"
 	Hide.Parent = Navigation
 	Hide.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-	Hide.BorderSizePixel = 0
+	Hide.BorderSizePixel = 3
 	Hide.Size = UDim2.new(1, 0, 0, 20)
 
 	Hide2.Name = "Hide2"
 	Hide2.Parent = Navigation
 	Hide2.AnchorPoint = Vector2.new(1, 0)
 	Hide2.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-	Hide2.BorderSizePixel = 0
+	Hide2.BorderSizePixel = 3
 	Hide2.Position = UDim2.new(1, 0, 0, 0)
 	Hide2.Size = UDim2.new(0, 20, 1, 0)
 
@@ -252,7 +250,7 @@ function Library:Create(TitleText)
 	Line_2.Name = "Line"
 	Line_2.Parent = Navigation
 	Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
-	Line_2.BorderSizePixel = 0
+	Line_2.BorderSizePixel = 3
 	Line_2.Position = UDim2.new(1, 0, 0, 0)
 	Line_2.Size = UDim2.new(0, 1, 1, 0)
 
@@ -267,7 +265,7 @@ function Library:Create(TitleText)
 	Fade.Name = "Fade"
 	Fade.Parent = ContentContainer
 	Fade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Fade.BorderSizePixel = 0
+	Fade.BorderSizePixel = 3
 	Fade.Size = UDim2.new(1, 0, 0, 30)
 	Fade.Visible = false
 	Fade.ZIndex = 10
@@ -299,7 +297,7 @@ function Library:Create(TitleText)
 		Active.Parent = ButtonHolder
 		Active.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 		Active.BackgroundTransparency = 0
-		Active.BorderSizePixel = 0
+		Active.BorderSizePixel = 3
 		Active.Size = UDim2.new(1, 0, 0, 28)
 		Active.Font = font
 		Active.Text = TabText
@@ -323,7 +321,7 @@ function Library:Create(TitleText)
 		NewTab.Parent = TabsFolder
 		NewTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		NewTab.BackgroundTransparency = 1.000
-		NewTab.BorderSizePixel = 0
+		NewTab.BorderSizePixel = 3
 		NewTab.Selectable = false
 		NewTab.Size = UDim2.new(1, 0, 1, 0)
 		NewTab.AutomaticCanvasSize = "Y"
