@@ -297,7 +297,6 @@ function Library:Create(TitleText)
 		Active.Parent = ButtonHolder
 		Active.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 		Active.BackgroundTransparency = 0
-		Active.BorderSizePixel = 0
 		Active.Size = UDim2.new(1, 0, 0, 28)
 		Active.Font = font
 		Active.Text = TabText
