@@ -112,6 +112,8 @@ function Library:Create(TitleText)
 	Main.Parent = UILibrary
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
 	Main.BackgroundColor3 = Color3.fromRGB(206, 208, 0)
+        Main.BorderColor3 = Color3.fromRGB(255, 0, 0)
+        Main.BorderSizePixel = 2
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 400, 0, 228)
 
