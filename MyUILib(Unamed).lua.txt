@@ -133,7 +133,9 @@ function Library:Create(TitleText)
 	Extension.Name = "Extension"
 	Extension.Parent = TopBar
 	Extension.AnchorPoint = Vector2.new(0, 1)
-	Extension.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	Extension.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+        Extension.BorderColor3 = Color3.fromRGB(255, 0, 0)
+        Extension.BorderSizePixel = 3
 	Extension.BorderSizePixel = 0
 	Extension.Position = UDim2.new(0, 0, 1, 0)
 	Extension.Size = UDim2.new(1, 0, 0.5, 0)
@@ -181,7 +183,9 @@ function Library:Create(TitleText)
 	Line.Name = "Line"
 	Line.Parent = TopBar
 	Line.AnchorPoint = Vector2.new(0, 1)
-	Line.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+	Line.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
+        Line.BorderColor3 = Color3.fromRGB(255, 0, 0)
+        Line.BorderSizePixel = 3
 	Line.BorderSizePixel = 0
 	Line.Position = UDim2.new(0, 0, 1, 0)
 	Line.Size = UDim2.new(1, 0, 0, 1)
@@ -209,7 +213,7 @@ function Library:Create(TitleText)
 
 	Navigation.Name = "Navigation"
 	Navigation.Parent = Main
-	Navigation.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+	Navigation.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 	Navigation.BorderSizePixel = 0
 	Navigation.Position = UDim2.new(0, 0, 0, 30)
 	Navigation.Size = UDim2.new(0, 120, 1, -30)
