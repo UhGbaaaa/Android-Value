@@ -459,7 +459,7 @@ function Library:Create(TitleText)
 
 			Button.Name = "Button"
 			Button.Parent = NewTab
-			Button.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+			Button.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 			Button.ClipsDescendants = true
 			Button.Size = UDim2.new(1, 0, 0, 32)
 			Button.AutoButtonColor = false
@@ -545,7 +545,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+						BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(162, 162, 162)
@@ -556,7 +556,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then 
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+						BackgroundColor3 = Color3.fromRGB(200, 200 0)
 					}):Play()
 					game.TweenService:Create(UIStroke, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(81, 81, 81)
@@ -581,7 +581,7 @@ function Library:Create(TitleText)
 			
 			TextBox.Name = "TextBox"
 			TextBox.Parent = NewTab
-			TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+			TextBox.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 			TextBox.ClipsDescendants = true
 			TextBox.Size = UDim2.new(1, 0, 0, 32)
 			TextBox.AutoButtonColor  = false
@@ -648,7 +648,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+						BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(162, 162, 162)
@@ -659,7 +659,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+						BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_9, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(81, 81, 81)
@@ -696,7 +696,7 @@ function Library:Create(TitleText)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = NewTab
-			Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+			Toggle.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 			Toggle.ClipsDescendants = true
 			Toggle.Size = UDim2.new(1, 0, 0, 32)
 			Toggle.AutoButtonColor = false
@@ -770,7 +770,7 @@ function Library:Create(TitleText)
 				if not focusing then
 					if toggled == false then
 						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+							BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 							Color = Color3.fromRGB(0, 255, 59) 
@@ -793,7 +793,7 @@ function Library:Create(TitleText)
 						c:Destroy()
 					else
 						game.TweenService:Create(CheckmarkHolder, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-							BackgroundColor3 = Color3.fromRGB(255, 255, 0) 
+							BackgroundColor3 = Color3.fromRGB(200, 200, 0) 
 						}):Play()
 						game.TweenService:Create(UIStroke_3, TweenInfo.new(0.15, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 							Color = Color3.fromRGB(255, 161, 0) 
@@ -823,7 +823,7 @@ function Library:Create(TitleText)
 			btn.MouseEnter:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+						BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(162, 162, 162)
@@ -834,7 +834,7 @@ function Library:Create(TitleText)
 			btn.MouseLeave:Connect(function()
 				if not focusing then
 					game.TweenService:Create(btn, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-						BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+						BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 					}):Play()
 					game.TweenService:Create(UIStroke_2, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
 						Color = Color3.fromRGB(81, 81, 81)
@@ -867,7 +867,7 @@ function Library:Create(TitleText)
 
 			Slider.Name = "Slider"
 			Slider.Parent = NewTab
-			Slider.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+			Slider.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 			Slider.Size = UDim2.new(1, 0, 0, 38)
 
 			UICorner_12.CornerRadius = UDim.new(0, 4)
@@ -883,7 +883,7 @@ function Library:Create(TitleText)
 
 			Title_8.Name = "Title"
 			Title_8.Parent = Slider
-			Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Title_8.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 			Title_8.BackgroundTransparency = 1.000
 			Title_8.Size = UDim2.new(1, -24, 1, -10)
 			Title_8.Font = font
@@ -901,7 +901,7 @@ function Library:Create(TitleText)
 			Valuee.Name = "Value"
 			Valuee.Parent = Slider
 			Valuee.AnchorPoint = Vector2.new(1, 0)
-			Valuee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Valuee.BackgroundColor3 = Color3.fromRGB(200, 200, 255)
 			Valuee.BackgroundTransparency = 1.000
 			Valuee.Position = UDim2.new(1, 0, 0, 0)
 			Valuee.Size = UDim2.new(0, 24, 1, -10)
@@ -996,7 +996,7 @@ function Library:Create(TitleText)
 			
 			Keybind.Name = "Keybind"
 			Keybind.Parent = NewTab
-			Keybind.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+			Keybind.BackgroundColor3 = Color3.fromRGB(200, 200, 0)
 			Keybind.ClipsDescendants = true
 			Keybind.Size = UDim2.new(1, 0, 0, 32)
 			Keybind.AutoButtonColor = false
