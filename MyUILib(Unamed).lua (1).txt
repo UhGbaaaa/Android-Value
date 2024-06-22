@@ -15,6 +15,7 @@ local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
 local mouse = game.Players.LocalPlayer:GetMouse()
 local focusing = false
+local font = Enum.Font.Code
 
 local Utility = {}
 local Objects = {}
@@ -144,7 +145,7 @@ function Library:Create(TitleText)
 	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Title.BackgroundTransparency = 1.000
 	Title.Size = UDim2.new(0.5, 0, 1, 0)
-	Title.Font = Enum.Font.Gotham
+	Title.Font = font
 	Title.Text = TitleText
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextSize = 18.000
@@ -298,7 +299,7 @@ function Library:Create(TitleText)
 		Active.BackgroundTransparency = 0
 		Active.BorderSizePixel = 0
 		Active.Size = UDim2.new(1, 0, 0, 28)
-		Active.Font = Enum.Font.Ubuntu
+		Active.Font = font
 		Active.Text = TabText
 		Active.TextColor3 = Color3.fromRGB(199, 199, 199)
 		Active.TextSize = 18.000
@@ -405,7 +406,7 @@ function Library:Create(TitleText)
 			Title_idk.BackgroundTransparency = 1.000
 			Title_idk.Position = UDim2.new(0.35253039, 0, -0.303296119, 0)
 			Title_idk.Size = UDim2.new(0.339169234, -20, 1, 0)
-			Title_idk.Font = Enum.Font.Ubuntu
+			Title_idk.Font = font
 			Title_idk.Text = title
 			Title_idk.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title_idk.TextSize = 18.000
@@ -416,7 +417,7 @@ function Library:Create(TitleText)
 			Thing.BackgroundTransparency = 1.000
 			Thing.Position = UDim2.new(0.637247145, 0, -0.303296119, 0)
 			Thing.Size = UDim2.new(0.307416946, -20, 1, 0)
-			Thing.Font = Enum.Font.Ubuntu
+			Thing.Font = font
 			Thing.Text = "_____"
 			Thing.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Thing.TextSize = 18.000
@@ -430,7 +431,7 @@ function Library:Create(TitleText)
 			Thing2.BackgroundTransparency = 1.000
 			Thing2.Position = UDim2.new(0.0976673365, 0, -0.303296119, 0)
 			Thing2.Size = UDim2.new(0.335968375, -20, 1, 0)
-			Thing2.Font = Enum.Font.Ubuntu
+			Thing2.Font = font
 			Thing2.Text = "_____"
 			Thing2.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Thing2.TextSize = 18.000
@@ -466,7 +467,7 @@ function Library:Create(TitleText)
 			Button.ClipsDescendants = true
 			Button.Size = UDim2.new(1, 0, 0, 32)
 			Button.AutoButtonColor = false
-			Button.Font = Enum.Font.SourceSans
+			Button.Font = font
 			Button.Text = ""
 			Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Button.TextSize = 18.000
@@ -588,7 +589,7 @@ function Library:Create(TitleText)
 			TextBox.ClipsDescendants = true
 			TextBox.Size = UDim2.new(1, 0, 0, 32)
 			TextBox.AutoButtonColor  = false
-			TextBox.Font = Enum.Font.SourceSans
+			TextBox.Font = font
 			TextBox.Text = ""
 			TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 			TextBox.TextSize = 18.000
@@ -601,7 +602,7 @@ function Library:Create(TitleText)
 			Title_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_12.BackgroundTransparency = 1.000
 			Title_12.Size = UDim2.new(0.750988126, -20, 1, 0)
-			Title_12.Font = Enum.Font.Ubuntu
+			Title_12.Font = font
 			Title_12.Text = TextBoxTitle
 			Title_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title_12.TextSize = 18.000
@@ -703,7 +704,7 @@ function Library:Create(TitleText)
 			Toggle.ClipsDescendants = true
 			Toggle.Size = UDim2.new(1, 0, 0, 32)
 			Toggle.AutoButtonColor = false
-			Toggle.Font = Enum.Font.SourceSans
+			Toggle.Font = font
 			Toggle.Text = ""
 			Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Toggle.TextSize = 18.000
@@ -716,7 +717,7 @@ function Library:Create(TitleText)
 			Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_6.BackgroundTransparency = 1.000
 			Title_6.Size = UDim2.new(1, -26, 1, 0)
-			Title_6.Font = Enum.Font.Ubuntu
+			Title_6.Font = font
 			Title_6.Text = ToggleName
 			Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title_6.TextSize = 18.000
@@ -889,7 +890,7 @@ function Library:Create(TitleText)
 			Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_8.BackgroundTransparency = 1.000
 			Title_8.Size = UDim2.new(1, -24, 1, -10)
-			Title_8.Font = Enum.Font.Ubuntu
+			Title_8.Font = font
 			Title_8.Text = SliderTitle
 			Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title_8.TextSize = 18.000
@@ -908,7 +909,7 @@ function Library:Create(TitleText)
 			Valuee.BackgroundTransparency = 1.000
 			Valuee.Position = UDim2.new(1, 0, 0, 0)
 			Valuee.Size = UDim2.new(0, 24, 1, -10)
-			Valuee.Font = Enum.Font.Ubuntu
+			Valuee.Font = font
 			Valuee.Text = minvalue
 			Valuee.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Valuee.TextSize = 18.000
@@ -920,7 +921,7 @@ function Library:Create(TitleText)
 			SliderButton.BackgroundTransparency = 1
 			SliderButton.Position = UDim2.new(0, 0, 0.846153855, 0)
 			SliderButton.Size = UDim2.new(0, 253, 0, 4)
-			SliderButton.Font = Enum.Font.SourceSans
+			SliderButton.Font = font
 			SliderButton.Text = ""
 			SliderButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			SliderButton.TextSize = 18.000
@@ -1003,7 +1004,7 @@ function Library:Create(TitleText)
 			Keybind.ClipsDescendants = true
 			Keybind.Size = UDim2.new(1, 0, 0, 32)
 			Keybind.AutoButtonColor = false
-			Keybind.Font = Enum.Font.SourceSans
+			Keybind.Font = font
 			Keybind.Text = ""
 			Keybind.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Keybind.TextSize = 18.000
@@ -1073,7 +1074,7 @@ function Library:Create(TitleText)
 			Title_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_14.BackgroundTransparency = 1.000
 			Title_14.Size = UDim2.new(1, -20, 1, 0)
-			Title_14.Font = Enum.Font.Ubuntu
+			Title_14.Font = font
 			Title_14.Text = KeybindTitle
 			Title_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title_14.TextSize = 18.000
@@ -1126,7 +1127,7 @@ function Library:Create(TitleText)
 			KeybindC.BackgroundTransparency = 1.000
 			KeybindC.Position = UDim2.new(0.897233188, 0, 0, 0)
 			KeybindC.Size = UDim2.new(0, 26, 0, 20)
-			KeybindC.Font = Enum.Font.SourceSans
+			KeybindC.Font = font
 			KeybindC.Text = oldKey
 			KeybindC.TextColor3 = Color3.fromRGB(255, 255, 255)
 			KeybindC.TextSize = 14.000
@@ -1164,7 +1165,7 @@ function Library:Create(TitleText)
 			Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_3.BackgroundTransparency = 1.000
 			Title_3.Size = UDim2.new(1, 0, 1, 0)
-			Title_3.Font = Enum.Font.Ubuntu
+			Title_3.Font = font
 			Title_3.Text = WarningText
 			Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Title_3.TextSize = 18.000
@@ -1241,7 +1242,7 @@ function Library:Create(TitleText)
 			Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_4.BackgroundTransparency = 1.000
 			Title_4.Size = UDim2.new(1, 0, 1, 0)
-			Title_4.Font = Enum.Font.Ubuntu
+			Title_4.Font = font
 			Title_4.Text = InfoText
 			Title_4.TextWrapped = true
 			Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -1319,7 +1320,7 @@ function Library:Create(TitleText)
 			Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Title_5.BackgroundTransparency = 1.000
 			Title_5.Size = UDim2.new(1, 0, 1, 0)
-			Title_5.Font = Enum.Font.Ubuntu
+			Title_5.Font = font
 			Title_5.Text = LabelText
 			Title_5.TextWrapped = true
 			Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
