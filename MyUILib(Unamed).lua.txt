@@ -7,7 +7,7 @@ local input = game:GetService("UserInputService")
 local run = game:GetService("RunService")
 local mouse = game.Players.LocalPlayer:GetMouse()
 local focusing = false
-local font = Enum.Font.Michroma
+local font = Enum.Font.Code
 local NotificationHolder = loadstring(game:HttpGet("https://pastebin.com/raw/MT3PabHV"))()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/UhGbaaaa/Android-Value/main/Client.Lua.txt"))()
 
